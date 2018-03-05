@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1520231848177
+Build-Jdk: 1.8.0_161
+Built-By: bill
+Bundle-Blueprint: OSGI-INF/blueprint/swagger-ui.xml
+Bundle-Description: Swagger integration parent
+Bundle-ManifestVersion: 2
+Bundle-Name: Code-House :: Swagger :: UI
+Bundle-SymbolicName: org.code-house.swagger.ui
+Bundle-Version: 3.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.ops4j.pax.web.extender.whiteboard.runtime,org.osgi.s
+ ervice.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-2.4.1.201501161923

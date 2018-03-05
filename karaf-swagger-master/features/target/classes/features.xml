@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="karaf-swagger-3.0.0-SNAPSHOT"
+    xmlns="http://karaf.apache.org/xmlns/features/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://karaf.apache.org/xmlns/features/v1.0.0
+        http://karaf.apache.org/xmlns/features/v1.0.0
+    ">
+
+    <repository>mvn:org.code-house.jackson/features/2.8.8-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.1.9/xml/features</repository>
+
+    <feature name="swagger-annotations" version="1.5.18">
+        <bundle>mvn:io.swagger/swagger-annotations/1.5.18</bundle>
+    </feature>
+
+    <feature name="swagger-bundle" version="1.5.18">
+        <feature version="1.5.18">swagger-annotations</feature>
+        <feature version="2.9.4">jackson-dataformat-yaml</feature>
+        <feature version="2.9.4">jackson-jaxrs-json-provider</feature>
+
+        <bundle dependency="true">mvn:org.apache.geronimo.specs/geronimo-validation_1.0_spec/1.1</bundle>
+        <bundle dependency="true">mvn:com.google.guava/guava/18.0</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.4</bundle>
+        <bundle>mvn:org.javassist/javassist/3.18.2-GA</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.reflections/0.9.10_3</bundle>
+        <bundle>mvn:org.code-house.swagger/bundle/3.0.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature name="swagger-core" version="3.0.0-SNAPSHOT">
+        <feature version="3.1.9">cxf-jaxrs</feature>
+        <feature version="1.5.18">swagger-bundle</feature>
+
+        <bundle>mvn:org.code-house.swagger/core/3.0.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature name="swagger-ui" version="3.0.0-SNAPSHOT">
+        <feature version="4.1.5">http-whiteboard</feature>
+
+        <bundle>mvn:org.code-house.swagger/ui/3.0.0-SNAPSHOT</bundle>
+    </feature>
+
+    <feature name="swagger" version="3.0.0-SNAPSHOT">
+        <feature version="1.5.18">swagger-annotations</feature>
+        <feature version="3.0.0-SNAPSHOT">swagger-core</feature>
+        <feature version="3.0.0-SNAPSHOT">swagger-ui</feature>
+    </feature>
+
+</features>

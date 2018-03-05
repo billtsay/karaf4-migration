@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/bill/Public/karaf-swagger-master/ui/target/classes/swagger-ui">
+    <fileset dir="/home/bill/Public/karaf-swagger-master/ui/target/swagger-ui/META-INF/resources/webjars/swagger-ui/2.2.10"></fileset>
+  </copy>
+</target>
+</project>
