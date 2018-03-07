@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.code_house.swagger.itest.FeaturesIntegrationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.347 sec - in org.code_house.swagger.itest.FeaturesIntegrationTest

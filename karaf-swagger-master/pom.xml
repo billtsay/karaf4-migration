@@ -14,7 +14,6 @@
     <modules>
         <module>core</module>
         <module>parent</module>
-        <module>bundle</module>
         <module>ui</module>
         <module>features</module>
         <module>itests</module>

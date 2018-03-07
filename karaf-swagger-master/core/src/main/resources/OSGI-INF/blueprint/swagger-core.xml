@@ -38,18 +38,40 @@
         </cxf:features>
     </cxf:bus>
 
-    <jaxrs:server id="swagger-web" bus="swagger-bus" address="/swagger">
+    <jaxrs:server id="swagger-web" bus="swagger-bus" address="/">
         <jaxrs:serviceBeans>
+            <!--
             <ref component-id="swaggerServiceBean" />
+            -->
+            <ref component-id="jacksonServiceBean" />
+            <bean class="com.solrup.rest.api.HelloManager"/>
         </jaxrs:serviceBeans>
         <jaxrs:providers>
             <ref component-id="swaggerProvider" />
         </jaxrs:providers>
+        <jaxrs:features>
+            <ref component-id="swagger2Feature" />
+        </jaxrs:features>
     </jaxrs:server>
+
 
     <bean id="swaggerServiceBean" class="org.code_house.swagger.core.internal.EnhancedApiListingResource">
         <argument ref="swaggerHolder" />
     </bean>
+    <bean id="jacksonServiceBean" class="com.solrup.rest.api.EnhancedApiListingResource">
+        <argument ref="swaggerHolder" />
+    </bean>
+
     <bean id="swaggerProvider" class="io.swagger.jaxrs.listing.SwaggerSerializers" />
+
+    <!-- Swagger -->
+    <bean id="swagger2Feature" class="org.apache.cxf.jaxrs.swagger.Swagger2Feature">
+        <property name="basePath" value="/api"/>
+        <property name="description" value="For more information about DasCODE, visit http://dascode.cisco.com"/>
+        <property name="contact" value="dascode-dev.cisco.com"/>
+        <property name="title" value="Solrup REST API"/>
+        <property name="prettyPrint" value="true"/>
+        <property name="resourcePackage" value="com.solrup.rest.api"/>
+    </bean>
 
 </blueprint>
