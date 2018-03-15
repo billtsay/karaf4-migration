@@ -9,76 +9,95 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.4" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-avro:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.avro:avro:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-avro:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.avro:avro:1.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
-    <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" level="project" />
-    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.0.5" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.7" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider:2.8.7" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.18" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.9.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:2.8.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.features:base:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.main:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.util:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.felix:org.apache.felix.utils:1.8.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.exception:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.client:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-core:0.14.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.jaas:org.apache.karaf.jaas.boot:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.boot:4.0.8" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.tycho:org.eclipse.osgi:3.10.101.v20150820-1432" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.felix:org.apache.felix.framework:5.6.1" level="project" />
-    <orderEntry type="library" name="Maven: jline:jline:2.14.1" level="project" />
-    <orderEntry type="library" name="Maven: org.jledit:core:0.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.ops4j.pax.logging:pax-logging-api:1.8.5" level="project" />
-    <orderEntry type="library" name="Maven: org.ops4j.pax.logging:pax-logging-service:1.8.5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.fileinstall:3.5.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.configadmin:1.8.12" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:2.9.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.features:base:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.main:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.util:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.felix:org.apache.felix.utils:1.10.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna:4.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.java.dev.jna:jna-platform:4.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.exception:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf:org.apache.karaf.client:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-core:1.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.jaas:org.apache.karaf.jaas.boot:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.boot:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.eclipse.platform:org.eclipse.osgi:3.12.50" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.felix:org.apache.felix.framework:5.6.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline:3.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.logging:pax-logging-api:1.10.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.logging:pax-logging-log4j2:1.10.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.fileinstall:3.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.karaf.features:org.apache.karaf.features.extension:4.1.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hibernate:hibernate-osgi:5.2.6.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hibernate:hibernate-core:5.2.6.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss:jandex:2.0.3.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml:classmate:1.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.enterprise:cdi-api:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.el:el-api:2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.osgi:org.osgi.core:4.3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.osgi:org.osgi.compendium:4.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-atinject_1.0_spec:1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-junit4:4.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-spi:4.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-junit4:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-spi:4.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.tinybundles:tinybundles:2.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: biz.aQute.bnd:bndlib:2.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-lang:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.karaf.features:org.apache.karaf.features.core:4.0.8" level="project" />
-    <orderEntry type="library" name="Maven: org.ops4j.pax.url:pax-url-aether:2.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.karaf.features:org.apache.karaf.features.core:4.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.ops4j.pax.url:pax-url-aether:2.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.6.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-karaf:4.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam:4.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-karaf:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam:4.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-store:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-util-property:1.5.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-remote:4.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-rbc-client:4.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-rbc:4.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-remote:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-rbc-client:4.11.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.exam:pax-exam-container-rbc:4.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.swissbox:pax-swissbox-core:1.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.pax.swissbox:pax-swissbox-lifecycle:1.8.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-net:1.5.0" level="project" />
@@ -91,5 +110,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-monitors:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ops4j.base:ops4j-base-spi:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.configadmin:1.8.12" level="project" />
   </component>
 </module>
