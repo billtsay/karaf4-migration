@@ -21,7 +21,7 @@
 
     <feature name="jackson-databind" version="${jackson.version}">
         <feature version="${jackson.version}">jackson-core</feature>
-
+        <bundle dependency="true">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jsr339-api-2.0/2.6.0</bundle>
         <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/${jackson.version}</bundle>
     </feature>
 
