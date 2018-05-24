@@ -15,11 +15,10 @@
  */
 package org.code_house.jackson.itest;
 
-import static org.ops4j.pax.exam.karaf.options.KarafDistributionOption.*;
-
-import static org.junit.Assert.*;
-
-import static org.ops4j.pax.exam.CoreOptions.*;
+import static org.junit.Assert.assertTrue;
+import static org.ops4j.pax.exam.CoreOptions.maven;
+import static org.ops4j.pax.exam.karaf.options.KarafDistributionOption.editConfigurationFileExtend;
+import static org.ops4j.pax.exam.karaf.options.KarafDistributionOption.karafDistributionConfiguration;
 
 import java.util.EnumSet;
 
