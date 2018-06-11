@@ -38,6 +38,7 @@ public class FeaturesIntegrationTest {
 
         return new Option[]{
             karafDistributionConfiguration().karafVersion(karafVersion).frameworkUrl(frameworkURL),
+            editConfigurationFileExtend("etc/org.apache.karaf.features.cfg", "featuresBoot", "," + "aries-blueprint/4.2.0"),
             editConfigurationFileExtend("etc/org.apache.karaf.features.cfg", "featuresRepositories", "," + featuresUrl)
         };
     }

@@ -8,7 +8,7 @@ via single command.
 
 Requires
 ---
-Karaf 4.1.5
+Karaf 3.x
 
 Provides
 ---
@@ -19,7 +19,7 @@ Swagger features for running it inside karaf.
 To start using swagger in your project you need to install karaf feature set:
 
 ```
-feature:repo-add mvn:org.code-house.swagger/features/3.0.0-SNAPSHOT/xml/features
+feature:repo-add mvn:org.code-house.swagger/features/3.0.0-SNAPSHOT/xml
 feature:install swagger
 ```
 

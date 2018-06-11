@@ -17,9 +17,9 @@
     <description>Swagger integration parent</description>
 
     <properties>
-        <cxf.version>3.1.9</cxf.version>
-        <karaf.version>4.1.5</karaf.version>
-        <swagger.version>1.5.18</swagger.version>
+        <cxf.version>3.2.4</cxf.version>
+        <karaf.version>4.2.0</karaf.version>
+        <swagger.version>1.5.7</swagger.version>
         <osgi.version>5.0.0</osgi.version>
 
         <jackson.version>2.9.4</jackson.version>
@@ -34,7 +34,7 @@
         <servlet-spec.version>3.1.0</servlet-spec.version>
         <servicemix-jaxrs-spec.version>2.4.0</servicemix-jaxrs-spec.version>
 
-        <webjars-swagger-ui.version>2.2.10</webjars-swagger-ui.version>
+        <webjars-swagger-ui.version>2.1.1</webjars-swagger-ui.version>
 
         <felix-bundle-plugin.version>2.5.4</felix-bundle-plugin.version>
         <maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
